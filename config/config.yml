@@ -1,0 +1,14 @@
+csvFile: "C:/work/eclipse/eclipse-jee-oxygen/eclipse-workspace/CsvDeduplicator/data/changeLogReport_f1077ee4-cc2e-4825-8023-3cdc009651e3_1.csv"
+outputFile: "C:/work/eclipse/eclipse-jee-oxygen/eclipse-workspace/CsvDeduplicator/data/changeLogReport_f1077ee4-cc2e-4825-8023-3cdc009651e3_1_dedup.csv"
+HeaderRowNumber: 11
+DelimiterCharacter: ","
+DeduplicateMode: groupingColumns   #  groupingColumnsNumber or groupingColumns
+groupingColumns:                   # mention the header name to group. 
+    - "Changed By User (Username)"
+    - "Subject User (First Name)"
+    - "Subject User (Last Name)"
+    
+groupingColumnsNumber:             # mention the header index number  start with 0 to group. 
+    - 2
+    - 8
+    - 9    
